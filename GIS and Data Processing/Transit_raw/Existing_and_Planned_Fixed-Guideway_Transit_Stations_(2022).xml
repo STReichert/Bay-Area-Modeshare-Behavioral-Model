@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Existing and Planned Fixed-Guideway Transit Stations (2022)</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://services3.arcgis.com/i2dkYWmb4wHvYPda/arcgis/rest/services/Existing_and_Planned_Fixed_Guideway_Transit_Stations/FeatureServer</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Existing and Planned Fixed-Guideways Transit Stations layer was used to create the one half-mile Transit-Oriented Communities (TOC) Policy Areas (2022) (MTC Res. No. 4530) and is a derivative of the Transit Stops - Existing and Planned (2021) data set. The stops data were filtered to only include stops served by rail, bus rapid transit, tram, streetcar, light rail, cable tram, or ferry stops. These transit route types were classified as 'fixed guideway' transit types following the Transit Oriented Communities policy guidelines.  Additionally, the data set was processed to remove bi-directional stop locations, using geometric proximity to determine the relationship between stops, with the result being a single location for access to transit service. These updated transit access points were named stations, and in many cases, they are served by multiple transit operators. Stations are categorized by the level of transit service, or Transit Service Tier. More information about the TOC Policy, including the full text of Res. No. 4530, can be found here: https://mtc.ca.gov/planning/land-use/transit-oriented-communities-toc-policy. Process and technical documentation can be found on github here: https://github.com/BayAreaMetro/Spatial-Analysis-Mapping-Projects/tree/master/Project-Documentation/Transit-Oriented-Communities.</abstract>
+            <purpose>This layer was used to create the half-mile Transit-Oriented Communities (TOC) Policy (MTC Res. No. 4530), which apply to locations within one half-mile of existing and planned transit stops and stations served by rail, light-rail, bus rapid transit, or ferries.</purpose>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>planningCadastre</themekey>
+                <themekey>structure</themekey>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>transportation</themekey>
+                <themekey>planning</themekey>
+                <themekey>transit</themekey>
+                <themekey>major transit</themekey>
+                <themekey>bus stop</themekey>
+                <themekey>rail station</themekey>
+                <themekey>light rail stop</themekey>
+                <themekey>ferry terminal</themekey>
+                <themekey>toc</themekey>
+                <themekey>transit-oriented community</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This data is intended for planning purposes only. The Metropolitan Transportation Commission (MTC) provides spatial and attribute data (also referred to as &amp;quot;information&amp;quot;) &amp;quot;as-is,&amp;quot; and shall incur no responsibility or liability as to the completeness, currentness, or accuracy of this information. The MTC, and other agencies/cities/counties from which the data were sourced, assume no responsibility arising from use of this information by individuals, businesses, or other public entities. The data is provided with no warranty of any kind, expressed or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. Do not make any decisions based on this data before validating your decision with the appropriate city, county, or government entity.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Metropolitan Transportation Commission</cntorg>
+                    <cntper>Data &amp; Visualization</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>375 Beale Street, Suite 800</address>
+                    <city>San Francisco</city>
+                    <state>California</state>
+                    <postal>94105</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(415) 778-6700</cntvoice>
+                <cntemail>dataviz@bayareametro.gov</cntemail>
+                <hours>9:00 AM - 5:00 PM (PST) Monday through Friday</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Metropolitan Transportation Commission, 2022</datacred>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>fixedguideway_transit_stations_existing_planned_2022</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>stop_nm</attrlabl>
+                <attrdef>The name of the transit stop or station represented by the point feature.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>station_id</attrlabl>
+                <attrdef>The identification value assigned to the transit stop or station by the Metropolitan Transportation Commission. The station identification is used across multiple planning efforts within the agency.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>station_operator</attrlabl>
+                <attrdef>The name of the transit operator serving the transit stop or station represented by the point feature. Where more than one operator serves a stop/station, this is the name of the primary operator (agency that constructed the stop/station).</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>status</attrlabl>
+                <attrdef>Designates whether the station/stop is in service or not.</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Existing/Built</edomv>
+                                                						
+                        
+                        <edomvd>The station/stop exists and is in service.</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Final Blueprint</edomv>
+                                                						
+                        
+                        <edomvd>?????</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Under Construction</edomv>
+                                                						
+                        
+                        <edomvd>The station/stop is under construction and is not providing service to the public.</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>route_type</attrlabl>
+                <attrdef>Designates the type of transit serving the station or stop. Where more than one type of transit serves a station/stop, it designates the primary transit type serving the station/stop (transit type the station/stop was constructed for).</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <udom>The values for this field are: 
+- Rail 
+- Tram, Streetcar, Light Rail 
+- BRT (Bus Rapid Transit) 
+- Cable Tram 
+- Ferry</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>bart_rt_ct</attrlabl>
+                <attrdef>The total number of Bay Area Rapid Transit routes that serve the station.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>caltrain_rt_ct</attrlabl>
+                <attrdef>The total number of Caltrain routes that serve the station.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>servi_tier</attrlabl>
+                <attrdef>Level of transit service available at the station or stop.</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>Rail stations serving regional centers. Applies to the following stations: Downtown San Francisco (Embarcadero, Montgomery, Powell, Civic Center, Transbay); Oakland (19th, 12th, Lake Merritt); San Jose (Diridon).</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>Stop/station served by two or more Bay Area Rapid Transit (BART) lines or is served by both BART and Caltrain.</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>Stop/station served by one BART line, Caltrain, light rail transit route, or bus rapid transit route.</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>Commuter rail (Sonoma Marin Area Rail Transit (SMART), Altamont Corridor Express (ACE), Capitol Corridor) stations, Caltrain stations south of Tamien, or ferry terminal.</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>route_rank</attrlabl>
+                <attrdef>Designates the rank for the route(s) serving the station or stop from 1-4, with 1 being the highest rank. If multiple transit types serve the station/stop, the rank is the highest route serving the station/stop.</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>Rail or ferry</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>Tram, streetcar, or light rail</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>BRT (Bus Rapid Transit)</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>Cable tram</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20221103</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Metropolitan Transportation Commission</cntorg>
+                    <cntper>Data &amp; Visualization</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>375 Beale Street, Suite 800</address>
+                    <city>San Francisco</city>
+                    <state>California</state>
+                    <postal>94105</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(415) 778-6700</cntvoice>
+                <cntemail>dataviz@bayareametro.gov</cntemail>
+                <hours>9:00 AM - 5:00 PM (PST) Monday through Friday</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
