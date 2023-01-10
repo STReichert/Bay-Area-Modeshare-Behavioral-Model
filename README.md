@@ -3,4 +3,4 @@
  
 The final paper and analysis can be found in [Zeng_Reichert_Kapshikar_253_Term_Project.docx](Zeng_Reichert_Kapshikar_253_Term_Project.docx)
 
-The model and code were developed in Google Colab. The final iteration of which is [here](Bay-Area-Modeshare-Behavioral-Model/Google Colab Modeling Files/Update_TAZbased Model.ipynb)
+The model and code were developed in Google Colab. The final iteration of which is [here](Bay-Area-Modeshare-Behavioral-Model/Google%20Colab%20Modeling%20Files/Update_TAZbased Model.ipynb)
